@@ -1,0 +1,96 @@
+.zmg_active {
+    background-color: #66ccff;
+    color           : #ffffff;
+    text-decoration : none;
+}
+
+.zmg_active:hover {
+    text-decoration: none;
+    color          : #003366;
+}
+
+#zmg_preview_excerpt,
+#zmg_preview_template {
+    background-color: #ffffcc;
+    padding         : .5em;
+    display         : none;
+}
+
+#zmg_excerpt div a,
+#zmg_template div a {
+    padding:0.5em;
+    cursor : pointer;
+}
+
+/******************************************************************************/
+#zmg_button_buttons,
+#zmg_buy_buttons {
+    list-style-type: none;
+    margin         : 0 0 90px;
+    padding        : 0;
+}
+
+#zmg_button_buttons li,
+#zmg_buy_buttons li {
+    float     : left;
+    text-align: center;
+    width     : 19.9%;
+    margin    : 0;
+    padding   : 0;
+}
+
+#zmg_button_buttons li input,
+#zmg_buy_buttons li input {
+    border: 0;
+}
+
+#zmg_button_buttons li label,
+#zmg_buy_buttons li label {
+    display: block;
+    height : 64px;
+}
+
+#zmg_button_palette span,
+#zmg_buy_palette span {
+    display: block;
+    float  : left;
+    width  : 2.5px;
+    height : 32px;
+}
+
+#zmg_button_palette img,
+#zmg_buy_palette img {
+    width: 16px;
+}
+
+/******************************************************************************/
+#zmg_process_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#zmg_process_table tr td {
+    padding: 0.2em 0.5em;
+    border: 1px solid #dddddd;
+}
+
+#zmg_process_table tr td:first-child {
+    text-align: right;
+    width: 5%;
+}
+
+#zmg_process_table tr td:first-child,
+#zmg_process_table tr td:last-child {
+    font-weight: bold;
+}
+
+#zmg_process_table tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+/******************************************************************************/
+#zmg_description-rss_description-content{
+    max-height: 400px;
+    overflow  : auto;
+}
+
